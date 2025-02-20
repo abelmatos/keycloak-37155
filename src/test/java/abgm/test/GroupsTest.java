@@ -73,7 +73,7 @@ class GroupsTest {
 
     CreateRealm.assignRealmRolesToServiceAccountUser(
         keycloakAdmin.realm(KeycloakContainer.MASTER_REALM),
-        List.of("create-realm"),
+        List.of("create-realm", "admin"),
         "sa-management");
 
     keycloakAdmin.close();
