@@ -22,7 +22,7 @@ public interface Groups {
             List.of(
                 "query-groups",
                 "query-users",
-                "impersonation",
+                // "impersonation",
                 "manage-users",
                 "view-realm")));
     return gr;
